@@ -14,6 +14,8 @@
 		224E7D7F1EDEE04D00D8DE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224E7D7D1EDEE04D00D8DE46 /* LaunchScreen.storyboard */; };
 		224E7D8A1EDEE04D00D8DE46 /* TableViewCustomCellSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E7D891EDEE04D00D8DE46 /* TableViewCustomCellSwiftTests.swift */; };
 		224E7D951EDEE04D00D8DE46 /* TableViewCustomCellSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E7D941EDEE04D00D8DE46 /* TableViewCustomCellSwiftUITests.swift */; };
+		224E7DA31EDEE10C00D8DE46 /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E7DA21EDEE10C00D8DE46 /* first.swift */; };
+		224E7DA51EDEE22300D8DE46 /* image-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 224E7DA41EDEE22300D8DE46 /* image-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		224E7D901EDEE04D00D8DE46 /* TableViewCustomCellSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCustomCellSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224E7D941EDEE04D00D8DE46 /* TableViewCustomCellSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCustomCellSwiftUITests.swift; sourceTree = "<group>"; };
 		224E7D961EDEE04D00D8DE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224E7DA21EDEE10C00D8DE46 /* first.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
+		224E7DA41EDEE22300D8DE46 /* image-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		224E7D681EDEE04D00D8DE46 = {
 			isa = PBXGroup;
 			children = (
+				224E7DA41EDEE22300D8DE46 /* image-1.jpg */,
+				224E7DA21EDEE10C00D8DE46 /* first.swift */,
 				224E7D731EDEE04D00D8DE46 /* TableViewCustomCellSwift */,
 				224E7D881EDEE04D00D8DE46 /* TableViewCustomCellSwiftTests */,
 				224E7D931EDEE04D00D8DE46 /* TableViewCustomCellSwiftUITests */,
@@ -188,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "MAC OS";
 				TargetAttributes = {
 					224E7D701EDEE04D00D8DE46 = {
@@ -235,6 +241,7 @@
 				224E7D7F1EDEE04D00D8DE46 /* LaunchScreen.storyboard in Resources */,
 				224E7D7C1EDEE04D00D8DE46 /* Assets.xcassets in Resources */,
 				224E7D7A1EDEE04D00D8DE46 /* Main.storyboard in Resources */,
+				224E7DA51EDEE22300D8DE46 /* image-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				224E7D771EDEE04D00D8DE46 /* ViewController.swift in Sources */,
 				224E7D751EDEE04D00D8DE46 /* AppDelegate.swift in Sources */,
+				224E7DA31EDEE10C00D8DE46 /* first.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +332,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -332,7 +342,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -373,7 +388,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -381,7 +398,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -503,6 +525,7 @@
 				224E7D9B1EDEE04D00D8DE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		224E7D9C1EDEE04D00D8DE46 /* Build configuration list for PBXNativeTarget "TableViewCustomCellSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +534,7 @@
 				224E7D9E1EDEE04D00D8DE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		224E7D9F1EDEE04D00D8DE46 /* Build configuration list for PBXNativeTarget "TableViewCustomCellSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +543,7 @@
 				224E7DA11EDEE04D00D8DE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
